@@ -1,0 +1,118 @@
+@import url('styles.css');
+
+.delete-page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--mid-bg);
+    padding: 20px;
+}
+
+.delete-account-container {
+    background-color: var(--light-bg);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+}
+
+.brand-header {
+    margin-bottom: 30px;
+}
+
+.form-logo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.brand-header h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--dark-text);
+}
+
+.instruction-text {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--accent-teal);
+}
+
+.warning-text {
+    font-size: 0.9rem;
+    color: var(--paragraph-color);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: var(--dark-text);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: var(--accent-teal);
+}
+
+.delete-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+    transform: translateY(-2px);
+}
+
+.back-link {
+    margin-top: 20px;
+}
+
+.back-link a {
+    text-decoration: none;
+    color: var(--paragraph-color);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.back-link a:hover {
+    color: var(--accent-teal);
+}
+
+@media (max-width: 480px) {
+    .delete-account-container {
+        padding: 30px 20px;
+    }
+}
