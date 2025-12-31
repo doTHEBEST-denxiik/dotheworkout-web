@@ -45,8 +45,8 @@ a:hover::after {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 80px 5%;
-    padding-top: 10rem;
+    padding: 20px 5%;
+    padding-top: 8rem;
     overflow: hidden;
     background: linear-gradient(135deg, var(--light-bg) 0%, var(--mid-bg) 100%);
 }
@@ -75,19 +75,20 @@ a:hover::after {
     position: relative;
     z-index: 1;
     text-align: center;
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     animation: fadeInScale 1.5s ease-out forwards;
 }
 
 .development-section.doTHEWORKOUT .title {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 5.5em;
+    font-size: clamp(2.5rem, 8vw, 5.5rem);
     font-weight: 800;
     color: var(--dark-text);
     letter-spacing: -2px;
-    line-height: 1;
+    line-height: 1.1;
     margin-bottom: 20px;
     background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
     -webkit-background-clip: text;
@@ -96,35 +97,37 @@ a:hover::after {
 }
 
 @keyframes textGlow {
-    0% { text-shadow: 0 0 15px rgba(0, 188, 212, 0.2); }
-    100% { text-shadow: 0 0 30px rgba(156, 39, 176, 0.4); }
+    0% { text-shadow: 0 0 15px rgba(0, 188, 212, 0.1); }
+    100% { text-shadow: 0 0 30px rgba(156, 39, 176, 0.3); }
 }
 
 .development-section.doTHEWORKOUT .tagline {
     font-family: 'Outfit', sans-serif;
-    font-size: 1.8em;
+    font-size: clamp(1.1rem, 4vw, 1.8rem);
     font-weight: 700;
     color: var(--paragraph-color);
     margin-bottom: 20px;
     opacity: 0;
     animation: fadeIn 1s ease-out 0.8s forwards;
+    padding: 0 10px;
 }
 
 .development-section.doTHEWORKOUT .subtitle {
     font-family: 'Outfit', sans-serif;
-    font-size: 1.4em;
+    font-size: clamp(0.95rem, 3vw, 1.4rem);
     font-weight: 300;
     color: var(--dark-text);
-    line-height: 1.6;
+    line-height: 1.5;
     margin-bottom: 40px;
     opacity: 0;
     animation: fadeIn 1s ease-out 1.2s forwards;
+    padding: 0 15px;
 }
 
 .features-summary {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 12px;
     margin-bottom: 40px;
     flex-wrap: wrap;
     opacity: 0;
@@ -133,25 +136,27 @@ a:hover::after {
 
 .feature-tag {
     background: rgba(255, 255, 255, 0.8);
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 30px;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: clamp(0.75rem, 2.5vw, 0.9rem);
     color: var(--secondary);
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     border: 1px solid rgba(0, 188, 212, 0.1);
+    white-space: nowrap;
 }
 
 .primary-cta {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 12px;
     background: linear-gradient(45deg, var(--gradient-start), var(--gradient-end));
     color: white;
-    padding: 20px 45px;
+    padding: 18px 35px;
     border-radius: 50px;
-    font-size: 1.3em;
+    font-size: clamp(1rem, 3vw, 1.3rem);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -160,39 +165,45 @@ a:hover::after {
     transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     opacity: 0;
     animation: fadeInSlideUp 1s ease-out 1.6s forwards;
+    width: auto;
+    max-width: 90%;
 }
 
 .primary-cta:hover {
-    transform: translateY(-8px) scale(1.05);
+    transform: translateY(-5px) scale(1.03);
     box-shadow: 0 15px 45px rgba(156, 39, 176, 0.5);
 }
 
 .routines-list {
-    margin-top: 50px;
-    padding: 30px;
+    margin-top: 40px;
+    padding: 20px;
     background: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
     backdrop-filter: blur(10px);
     opacity: 0;
     animation: fadeIn 1s ease-out 2s forwards;
+    width: 100%;
 }
 
 .routines-list h3 {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1rem;
     text-transform: uppercase;
     color: var(--primary);
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .routines-list p {
     font-family: 'Outfit', sans-serif;
     color: var(--paragraph-color);
     font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .policy-link-container {
     margin-top: 30px;
+    margin-bottom: 20px;
     opacity: 0;
     animation: fadeIn 1s ease-out 2.2s forwards;
 }
@@ -213,13 +224,34 @@ a:hover::after {
 }
 
 @media (max-width: 768px) {
-    .development-section.doTHEWORKOUT .title { font-size: 3.5em; }
-    .development-section.doTHEWORKOUT .tagline { font-size: 1.4em; }
-    .primary-cta { font-size: 1.1em; padding: 15px 30px; }
-    .features-summary { gap: 10px; }
+    .development-section.doTHEWORKOUT {
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+    }
+    .features-summary {
+        gap: 8px;
+    }
 }
 
 @media (max-width: 480px) {
-    .development-section.doTHEWORKOUT .title { font-size: 2.8em; }
-    .development-section.doTHEWORKOUT .tagline { font-size: 1.1em; }
+    .development-section.doTHEWORKOUT {
+        padding-top: 6rem;
+    }
+    .primary-cta {
+        padding: 15px 25px;
+        width: 100%;
+    }
+    .routines-list {
+        padding: 15px;
+    }
+    .feature-tag {
+        padding: 6px 12px;
+    }
+}
+
+@media (max-height: 700px) {
+    .development-section.doTHEWORKOUT {
+        align-items: flex-start;
+        height: auto;
+    }
 }
