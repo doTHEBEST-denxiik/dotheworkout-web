@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>denxiik - Challenges</title>
+    <meta name="description" content="doTHE7 training challenges and 4-week programs.">
+
+    <meta property="og:url" content="https://www.denxiik.com/challenges.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="denxiik - Challenges">
+    <meta property="og:image" content="https://www.denxiik.com/img/challenge-cover.png">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/logo.webp">
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <link rel="stylesheet" href="../../css/challenges.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="../../script/script.js"></script>
+</head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W58Y0ZH93S"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-W58Y0ZH93S');
+</script>
+
+<header id="header-placeholder"></header>
+
+<body>
+
+    <main class="challenges-main">
+        <section class="challenges-section">
+            <div class="header">
+                <h1 class="title">Challenges</h1>
+                <p class="subtitle">Push your limits with our selection of challenges. Are you ready?</p>
+            </div>
+
+            <div class="challenge-group">
+                <h2 class="group-title">doTHECALISTHENICS</h2>
+                <div class="playlist-container">
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLvY15VwKCA5CSaL3KQvEhFPkM6-gl0nFx"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="playlist-description">Master the basics and advanced moves of calisthenics with my personal progress playlist.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="footer-placeholder"></footer>
+
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const headerPromise = loadHTML('../header/index.html', 'header-placeholder');
+        const footerPromise = loadHTML('../footer/index.html', 'footer-placeholder');
+
+        Promise.all([headerPromise, footerPromise])
+            .then(() => {
+                initializeLanguageOptions();
+            })
+            .catch(error => {
+                console.error('One or more HTML fragments could not be loaded:', error);
+            });
+    });
+</script>
+
+</html>
