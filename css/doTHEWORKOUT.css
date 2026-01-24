@@ -19,6 +19,12 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
+.policy-link-container {
+    margin-top: 30px;
+    opacity: 10;
+    animation: fadeIn 1s ease-out 2.2s forwards;
+}
+
 .mesh-gradient {
     position: absolute;
     top: 0;
