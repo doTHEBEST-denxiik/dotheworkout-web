@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /en/rrr/
+
+Sitemap: https://www.dotheworkout.com/sitemap.xml

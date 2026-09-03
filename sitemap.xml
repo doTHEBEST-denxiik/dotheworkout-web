@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://www.dotheworkout.com/en/doTHEWORKOUT/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dotheworkout.com/en/doTHEWORKOUT/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dotheworkout.com/es/doTHEWORKOUT/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://www.dotheworkout.com/ukr/doTHEWORKOUT/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dotheworkout.com/en/doTHEWORKOUT/" />
+    </url>
+    <url>
+        <loc>https://www.dotheworkout.com/es/doTHEWORKOUT/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dotheworkout.com/en/doTHEWORKOUT/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dotheworkout.com/es/doTHEWORKOUT/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://www.dotheworkout.com/ukr/doTHEWORKOUT/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dotheworkout.com/en/doTHEWORKOUT/" />
+    </url>
+    <url>
+        <loc>https://www.dotheworkout.com/ukr/doTHEWORKOUT/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dotheworkout.com/en/doTHEWORKOUT/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dotheworkout.com/es/doTHEWORKOUT/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://www.dotheworkout.com/ukr/doTHEWORKOUT/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dotheworkout.com/en/doTHEWORKOUT/" />
+    </url>
+
+    <url>
+        <loc>https://www.dotheworkout.com/en/challenges/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dotheworkout.com/en/challenges/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dotheworkout.com/es/retos/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://www.dotheworkout.com/ukr/vyklyku/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dotheworkout.com/en/challenges/" />
+    </url>
+    <url>
+        <loc>https://www.dotheworkout.com/es/retos/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dotheworkout.com/en/challenges/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dotheworkout.com/es/retos/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://www.dotheworkout.com/ukr/vyklyku/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dotheworkout.com/en/challenges/" />
+    </url>
+    <url>
+        <loc>https://www.dotheworkout.com/ukr/vyklyku/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dotheworkout.com/en/challenges/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dotheworkout.com/es/retos/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://www.dotheworkout.com/ukr/vyklyku/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dotheworkout.com/en/challenges/" />
+    </url>
+
+    <url>
+        <loc>https://www.dotheworkout.com/es/rutinas/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.dotheworkout.com/es/rutinas/easy-leon.html</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.dotheworkout.com/es/rutinas/medium-leon.html</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.dotheworkout.com/en/privacy-policy/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+</urlset>
