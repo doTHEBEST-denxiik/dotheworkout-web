@@ -84,6 +84,37 @@
     </url>
 
     <url>
+        <loc>https://www.dotheworkout.com/en/delete-account/</loc>
+        <lastmod>2026-09-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dotheworkout.com/en/delete-account/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dotheworkout.com/es/eliminar-cuenta/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://www.dotheworkout.com/ukr/stertu/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dotheworkout.com/en/delete-account/" />
+    </url>
+    <url>
+        <loc>https://www.dotheworkout.com/es/eliminar-cuenta/</loc>
+        <lastmod>2026-09-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dotheworkout.com/en/delete-account/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dotheworkout.com/es/eliminar-cuenta/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://www.dotheworkout.com/ukr/stertu/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dotheworkout.com/en/delete-account/" />
+    </url>
+    <url>
+        <loc>https://www.dotheworkout.com/ukr/stertu/</loc>
+        <lastmod>2026-09-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.dotheworkout.com/en/delete-account/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dotheworkout.com/es/eliminar-cuenta/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://www.dotheworkout.com/ukr/stertu/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dotheworkout.com/en/delete-account/" />
+    </url>
+
+    <url>
         <loc>https://www.dotheworkout.com/en/privacy-policy/</loc>
         <lastmod>2026-09-02</lastmod>
         <changefreq>yearly</changefreq>
